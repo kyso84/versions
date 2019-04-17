@@ -145,7 +145,7 @@ ext {
     androidxRecyclerViewVersion = androidxVersion
     androidxAnnotationVersion = androidxVersion
     androidxCardViewVersion = androidxVersion
-    androidxConstraintLayoutVersion="2.0.0-alpha4"
+    androidxConstraintLayoutVersion="1.1.2"
     
     // KTX___________________________________________________________________________________________________________________________________________
     // https://developer.android.com/kotlin/ktx#modules or https://github.com/android/android-ktx
