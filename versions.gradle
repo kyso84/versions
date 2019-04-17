@@ -3,44 +3,43 @@ ext {
     // Project : Stable
     commonCompileSdkVersion = "28"
     commonBuildToolsVersion = "28.0.3"
-    commonMinSdkVersion = "19"
+    commonMinSdkVersion = "21"
     commonTargetSdkVersion = "28"
 
     // Project : Preview
-    commonCompileSdkVersionPreview = "android-P"
-    commonBuildToolsVersionPreview = "27.0.3"
-    commonMinSdkVersionPreview = "19"
-    commonTargetSdkVersionPreview = "28"
+    commonCompileSdkVersionPreview = "android-Q"
+    commonBuildToolsVersionPreview = "28.0.3"
+    commonMinSdkVersionPreview = "21"
+    commonTargetSdkVersionPreview = "Q"
 
     // Libraries ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    coroutinesAndroidVersion = "1.0.1" 
     quickStartVersion = "1.0.0-SNAPSHOT"
     quicklibVersion = "1.0.6-SNAPSHOT@aar"
-    ktlintVersion = "0.25.1" // https://github.com/shyiko/ktlint/releases
-    gsonVersion = "2.8.5" // https://github.com/google/gson
-    daggerVersion = "2.16" // https://github.com/google/dagger/releases
-    timberVersion = "4.7.1" // https://github.com/JakeWharton/timber
-    stethoVersion = "1.5.0" // https://github.com/facebook/stetho
-    canaryVersion = "1.6.1" // https://github.com/square/leakcanary
-    retrofitVersion = "2.4.0" // https://github.com/square/retrofit
-    okHttpVersion = "3.11.0" // https://github.com/square/okhttp
+    ktlintVersion = "0.31.0" // https://github.com/shyiko/ktlint/releases
+    gsonVersion = "2.8.5" // https://github.com/google/gson/releases
+    daggerVersion = "2.22.1" // https://github.com/google/dagger/releases
+    timberVersion = "4.7.1" // https://github.com/JakeWharton/timber/releases
+    stethoVersion = "1.5.1" // https://github.com/facebook/stetho/releases
+    canaryVersion = "1.6.3" // https://github.com/square/leakcanary/releases
+    retrofitVersion = "2.5.0" // https://square.github.io/retrofit/#download
+    okHttpVersion = "3.14.1" // https://square.github.io/okhttp/#download
     picassoOkHttpVersion = "1.1.0" // https://github.com/JakeWharton/picasso2-okhttp3-downloader
-    picassoVersion = "2.71828" // https://github.com/square/picasso
-    okIoVersion = "1.15.0" // https://github.com/square/okio
+    picassoVersion = "2.71828" // https://github.com/square/picasso/releases
+    okIoVersion = "2.2.2" // https://github.com/square/okio/releases
     butterKnifeVersion = "8.8.1" // DEPRECATED https://github.com/JakeWharton/butterknife
-    facebookVersion = "4.35.0" // https://github.com/facebook/facebook-android-sdk/
+    facebookVersion = "4.42.0" // https://github.com/facebook/facebook-android-sdk/releases
     twitterVersion = "3.3.0" // https://github.com/twitter/twitter-kit-android
-    crashlyticsVersion = "2.9.4" // https://fabric.io/kits/android/crashlytics/install
-    constraintLayoutVersion = "1.0.2" // http://tools.android.com/recent
+    crashlyticsVersion = "2.9.9" // https://fabric.io/kits/android/crashlytics/install
     eventBusVersion = "3.1.1" // https://github.com/greenrobot/EventBus
-    rxAndroidVersion = "2.0.2" // https://github.com/ReactiveX/RxAndroid/releases
-    rxJavaVersion = "2.1.17" // https://github.com/ReactiveX/RxJava/releases
-    wasabeefPicassoVersion="2.2.1" // https://github.com/wasabeef/picasso-transformations
-    gpuImageVersion="1.4.1" // https://github.com/CyberAgent/android-gpuimage
-    googleMapsServicesVersion = "0.2.11" // https://github.com/googlemaps/google-maps-services-java
-    googleMapsUtilsVersion = "0.5" // https://github.com/googlemaps/android-maps-utils
-    exoPlayerVersion = "2.9.0" // https://github.com/google/ExoPlayer/releases
-    retrofitCoroutinesVersion = "0.9.2" // https://github.com/JakeWharton/retrofit2-kotlin-coroutines-adapter
+    rxAndroidVersion = "2.1.1" // https://github.com/ReactiveX/RxAndroid/releases
+    rxJavaVersion = "2.2.8" // https://github.com/ReactiveX/RxJava/releases
+    wasabeefPicassoVersion="2.2.1" // https://github.com/wasabeef/picasso-transformations/releases
+    gpuImageVersion="2.0.3" // https://github.com/cats-oss/android-gpuimage/releases
+    googleMapsServicesVersion = "0.9.3" // https://github.com/googlemaps/google-maps-services-java/releases
+    googleMapsUtilsVersion = "0.5" // https://github.com/googlemaps/android-maps-utils/releases
+    exoPlayerVersion = "2.9.6" // https://github.com/google/ExoPlayer/releases
+    coroutinesAndroidVersion = "1.2.0" // https://github.com/Kotlin/kotlinx.coroutines/releases
+    retrofitCoroutinesVersion = "0.9.2" // https://github.com/JakeWharton/retrofit2-kotlin-coroutines-adapter/releases
 
 
     // Support_______________________________________________________________________________________________________________________________________
@@ -81,87 +80,94 @@ ext {
     // https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project
     playServicesVersion = "16.0.0"
     playServicesVersion2 = "16.0.1" // Seems to be another pack of versionning
+    playServicesVersion3 = "16.1.0" // Seems to be another pack of versionning
     // ------------------------------
     playServicesPlusVersion = playServicesVersion
     playServicesAuthVersion = playServicesVersion2
-    playServicesBaseVersion = playServicesVersion2
+    playServicesBaseVersion = playServicesVersion3
     playServicesIdentityVersion = playServicesVersion
-    playServicesAnalyticsVersion = "16.0.4"
+    playServicesAnalyticsVersion = "16.0.8"
     playServicesAwarenessVersion = playServicesVersion
-    playServicesCastVersion = "16.0.3"
-    playServicesGcmVersion = playServicesVersion
-    playServicesDriveVersion = playServicesVersion
+    playServicesCastVersion = "16.1.2"
+    playServicesGcmVersion = playServicesVersion3
+    playServicesDriveVersion = playServicesVersion3
     playServicesFitnessVersion = playServicesVersion2
     playServicesLocationVersion = playServicesVersion
-    playServicesMapsVersion = playServicesVersion
-    playServicesAdsVersion = playServicesVersion
-    playServicesPlacesVersion = playServicesVersion
-    playServicesVisionVersion = "16.2.0"
+    playServicesMapsVersion = playServicesVersion // DEPRECATED
+    playServicesAdsVersion = "17.2.0"
+    playServicesPlacesVersion = playServicesVersion // DEPRECATED
+    playServicesVisionVersion = "17.0.2"
     playServicesNearbyVersion = playServicesVersion
     playServicesPanoramaVersion = playServicesVersion
-    playServicesGamesVersion = playServicesVersion
+    playServicesGamesVersion = "17.0.0"
     playServicesSafetynetVersion = playServicesVersion
     playServicesWalletVersion = playServicesVersion2
     playServicesWearableVersion = playServicesVersion2
 
     // Firebase______________________________________________________________________________________________________________________________________
     // https://firebase.google.com/support/release-notes/android
-    firebaseCoreVersion = "16.0.4"
-    firebaseAdsVersion = "17.0.1"
-    firebaseAnalyticsVersion = "16.0.5"
-    firebaseAppIndexingVersion = "16.0.2"
-    firebaseAuthVersion = "16.0.5"
-    firebaseFirestoreVersion = "17.1.3"
-    firebaseFunctionsVersion = "16.1.3"
-    firebaseMessagingVersion = "17.3.4"
-    firebaseStoreVersion = "17.0.2"
-    firebaseStorageVersion = "16.0.5"
+    firebaseCoreVersion = "16.0.8"
+    firebaseAdsVersion = "17.2.0"
+    firebaseAnalyticsVersion = "16.4.0"
+    firebaseAppIndexingVersion = "17.1.0"
+    firebaseAuthVersion = "16.2.1"
+    firebaseFirestoreVersion = "18.2.0"
+    firebaseFunctionsVersion = "16.3.0"
+    firebaseMessagingVersion = "17.6.0"
+    firebaseStoreVersion = "17.0.2" // DEPRECATED
+    firebaseStorageVersion = "16.1.0"
     firebaseCrashVersion = "16.2.1"
-    firebaseCrashlyticsVersion = "2.9.6"
-    firebaseDynamicLinksVersion = "16.1.3"
-    firebaseInvitesVersion = "16.0.4"
-    firebasePerformanceVersion = "16.2.0"
-    firebaseDatabaseVersion = "16.0.5"
-    firebaseRemoteConfigVersion = "16.1.0"
+    firebaseCrashlyticsVersion = "2.9.9"
+    firebaseDynamicLinksVersion = "16.1.8"
+    firebaseInvitesVersion = "16.1.1"
+    firebasePerformanceVersion = "16.2.5"
+    firebaseDatabaseVersion = "16.1.0"
+    firebaseRemoteConfigVersion = "16.5.0"
 
     // Jetpack (legacy)______________________________________________________________________________________________________________________________
-    // https://developer.android.com/topic/libraries/architecture/adding-components
-    androidLifeCycleVersion = "1.1.1"
-    androidRoomVersion = "1.1.1"
-    androidPagingVersion = "1.0.0"
-    androidMultidexVersion = multidexVersion
-    androidNavigationVersion = "1.0.0-alpha11"
-    androidWorkManagerVersion = "1.0.0-alpha09" // minSdk 28
-    // androidCoreKtxVersion = "" // Not available
-
+    androidLifeCycleVersion = "1.1.1" // DEPRECATED
+    androidRoomVersion = "1.1.1" // DEPRECATED
+    androidPagingVersion = "1.0.0" // DEPRECATED
+    androidMultidexVersion = multidexVersion // DEPRECATED
+    androidNavigationVersion = "1.0.0-alpha11" // DEPRECATED
+    androidWorkManagerVersion = "1.0.0-alpha09"  // DEPRECATED
+    
     // Jetpack_______________________________________________________________________________________________________________________________________
-    // https://developer.android.com/jetpack/androidx/migrate
-    androidxVersion = "1.0.0"
-    androidxCoreKtxVersion = androidxVersion // https://developer.android.com/kotlin/ktx or https://github.com/android/android-ktx
-    androidxAppCompatVersion = androidxVersion
+    androidxLifeCycleVersion = "2.0.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle
+    androidxRoomVersion = "2.1.0-alpha06" // https://developer.android.com/jetpack/androidx/releases/room
+    androidxPagingVersion = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/paging
+    androidxMultidexVersion = "2.0.0"
+    androidxNavigationVersion="2.1.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/navigation
+    androidxWorkManagerVersion="2.0.1" // https://developer.android.com/jetpack/androidx/releases/work
+    
+    androidxVersion = "1.0.0" // https://developer.android.com/jetpack/androidx/migrate
+    androidxAppCompatVersion = androidxVersion 
     androidxRecyclerViewVersion = androidxVersion
     androidxAnnotationVersion = androidxVersion
     androidxCardViewVersion = androidxVersion
-
-    // https://developer.android.com/topic/libraries/architecture/adding-components
-    androidxOtherVersion = "2.1.0-alpha04"
-    androidxLifeCycleVersion = "2.0.0" // androidxOtherVersion
-    androidxRoomVersion = androidxOtherVersion
-    androidxPagingVersion = "2.1.0"
-    androidxMultidexVersion = "2.0.0" // androidxOtherVersion
-    androidxNavigationVersion="1.0.0-beta01"
-    androidxWorkManagerVersion="1.0.0-beta04"
+    androidxConstraintLayoutVersion="1.1.3"
+    
+    // KTX___________________________________________________________________________________________________________________________________________
+    // https://developer.android.com/kotlin/ktx#modules or https://github.com/android/android-ktx
+    androidxKtxVersion="1.0.0" // <- Common version
+    androidxCoreKtxVersion = androidxVersion
+    androidxFragmentKtxVersion = androidxVersion
+    androidxPaletteKtxVersion = androidxVersion
+    androidxSqliteKtxVersion = "2.0.0"
+    androidxCollectionKtxVersion = androidxVersion
+    androidxLifecycleKtxVersion = "2.0.0"
+    androidxNavigationKtxVersion = "1.0.0-alpha06" // <- Common version
+    androidxNavigationCommonKtxVersion = androidxNavigationKtxVersion
+    androidxNavigationFragmentKtxVersion = androidxNavigationKtxVersion
+    androidxNavigationRuntimeKtxVersion = androidxNavigationKtxVersion
+    androidxNavigationTestingKtxVersion = androidxNavigationKtxVersion
+    androidxNavigationUiKtxVersion = androidxNavigationKtxVersion
+    androidxWorkKtxVersion = "1.0.0-alpha10"
 
     // Unit tests ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    junitVersion = "5.3.2" // https://www.baeldung.com/junit-5
+    junitVersion = "5.4.2" // https://junit.org/junit5/
     assertJVersion = "3.11.1" // https://joel-costigliola.github.io/assertj/assertj-core-quick-start.html
-    mockitoVersion = "2.23.4" // https://site.mockito.org/
-    spekVersion = "2.0.0-alpha.1" // https://github.com/spekframework/spek
+    mockitoVersion = "2.26.2" // https://site.mockito.org/
+    spekVersion = "2.0.2" // https://github.com/spekframework/spek/releases
     powerMockVersion = "2.0.0" // DEPRECATED
-
-    // LEGACY
-    architectureVersion = androidLifeCycleVersion
-    roomVersion = androidRoomVersion
-    kotlinVersion = "1.2.50"   
-
 }
