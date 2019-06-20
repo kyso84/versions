@@ -15,7 +15,7 @@ ext {
     // Libraries ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     quickStartVersion = "1.0.0-SNAPSHOT"
     quicklibVersion = "1.0.7-SNAPSHOT@aar"
-    ktlintVersion = "0.33.0" // https://github.com/shyiko/ktlint/releases
+    ktlintVersion = "0.31.0" // https://github.com/shyiko/ktlint/releases
     gsonVersion = "2.8.5" // https://github.com/google/gson/releases
     daggerVersion = "2.23.1" // https://github.com/google/dagger/releases
     timberVersion = "4.7.1" // https://github.com/JakeWharton/timber/releases
