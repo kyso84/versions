@@ -22,7 +22,7 @@ ext {
     stethoVersion = "1.5.1" // https://github.com/facebook/stetho/releases
     canaryVersion = "1.6.3" // https://github.com/square/leakcanary/releases
     retrofitVersion = "2.6.0" // https://github.com/square/retrofit/releases
-    okHttpVersion = "3.14.2" // https://square.github.io/okhttp/#download
+    okHttpVersion = "4.0.1" // https://square.github.io/okhttp/#download
     picassoOkHttpVersion = "1.1.0" // https://github.com/JakeWharton/picasso2-okhttp3-downloader/releases
     picassoVersion = "2.71828" // https://github.com/square/picasso/releases
     okIoVersion = "2.2.2" // https://github.com/square/okio/releases
