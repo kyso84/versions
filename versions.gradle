@@ -133,36 +133,59 @@ ext {
     androidWorkManagerVersion = "1.0.0-alpha09"  // DEPRECATED
     
     // Jetpack_______________________________________________________________________________________________________________________________________
+    androidxCoreVersion = "1.1.0-rc03" // https://developer.android.com/jetpack/androidx/releases/core
+    androidxCoreKtxVersion = androidxCoreVersion
+
     androidxLifeCycleVersion = "2.0.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle
-    androidxRoomVersion = "2.2.0-beta01" // https://developer.android.com/jetpack/androidx/releases/room
-    androidxPagingVersion = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/paging
-    androidxMultidexVersion = "2.0.1" // https://developer.android.com/jetpack/androidx/releases/multidex
-    androidxNavigationVersion="2.1.0-rc01" // https://developer.android.com/jetpack/androidx/releases/navigation
-    androidxWorkManagerVersion="2.2.0" // https://developer.android.com/jetpack/androidx/releases/work
-    
-    androidxVersion = "1.0.0" // https://developer.android.com/jetpack/androidx/migrate
-    androidxAppCompatVersion = "1.1.0-rc01" // https://developer.android.com/jetpack/androidx/releases/appcompat
-    androidxRecyclerViewVersion = "1.1.0-beta03" // https://developer.android.com/jetpack/androidx/releases/recyclerview
-    androidxAnnotationVersion = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/annotation
-    androidxCardViewVersion = androidxVersion
-    androidxConstraintLayoutVersion="1.1.3"
-    
-    // KTX___________________________________________________________________________________________________________________________________________
-    // https://developer.android.com/kotlin/ktx#modules
-    androidxKtxVersion="1.0.1" // <- Common version - https://developer.android.com/jetpack/androidx/releases/core
-    androidxCoreKtxVersion = androidxVersion
-    androidxFragmentKtxVersion = androidxVersion
-    androidxPaletteKtxVersion = androidxVersion
-    androidxSqliteKtxVersion = "2.0.0"
-    androidxCollectionKtxVersion = androidxVersion
     androidxLifecycleKtxVersion = androidxLifeCycleVersion
-    androidxNavigationKtxVersion = "2.1.0-rc01" // <- Common version - https://developer.android.com/jetpack/androidx/releases/navigation
-    androidxNavigationCommonKtxVersion = androidxNavigationKtxVersion
-    androidxNavigationFragmentKtxVersion = androidxNavigationKtxVersion
-    androidxNavigationRuntimeKtxVersion = androidxNavigationKtxVersion
-    androidxNavigationTestingKtxVersion = androidxNavigationKtxVersion
-    androidxNavigationUiKtxVersion = androidxNavigationKtxVersion
-    androidxWorkKtxVersion = "1.0.0-alpha10"
+    
+    androidxFragmentVersion = "1.2.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/fragment
+    androidxFragmentKtxVersion = androidxFragmentVersion
+    androidxFragmentTestingVersion = androidxFragmentVersion
+
+    androidxRoomVersion = "2.2.0-beta01" // https://developer.android.com/jetpack/androidx/releases/room
+    androidxRoomKtxVersion = androidxRoomVersion
+    androidxRoomTestingVersion = androidxRoomVersion
+        
+    androidxPagingVersion = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/paging
+    androidxPagingKtxVersion = androidxPagingVersion
+    
+    androidxMultidexVersion = "2.0.1" // https://developer.android.com/jetpack/androidx/releases/multidex
+    
+    androidxNavigationVersion = "2.1.0-rc01" // https://developer.android.com/jetpack/androidx/releases/navigation
+    androidxNavigationFragmentVersion = androidxNavigationVersion
+    androidxNavigationFragmentKtxVersion = androidxNavigationVersion
+    androidxNavigationUiVersion = androidxNavigationVersion
+    androidxNavigationUiKtxVersion = androidxNavigationVersion
+    androidxNavigationSafeArgsVersion = androidxNavigationVersion
+
+    androidxPreferenceVersion = "1.1.0-rc01" // https://developer.android.com/jetpack/androidx/releases/preference
+    androidxPreferenceKtxVersion = androidxPreferenceVersion
+    androidxPreferenceCompatVersion = "" // https://developer.android.com/reference/androidx/preference/PreferenceFragmentCompat
+    
+    androidxAppCompatVersion = "1.1.0-rc01" // https://developer.android.com/jetpack/androidx/releases/appcompat
+    androidxAppCompatResourcesVersion = androidxAppCompatVersion
+    
+    androidxWorkVersion="2.2.0" // https://developer.android.com/jetpack/androidx/releases/work
+    androidxWorkKtxVersion = androidxWorkVersion    
+    androidxWorkGcmVersion = androidxWorkVersion
+    androidxWorkTestingVersion = androidxWorkVersion
+
+    androidxRecyclerViewVersion = "1.1.0-beta03" // https://developer.android.com/jetpack/androidx/releases/recyclerview
+
+    androidxAnnotationVersion = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/annotation
+
+    androidxCardViewVersion = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/cardview
+
+    androidxConstraintLayoutVersion="1.1.3" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
+    
+    androidxPaletteVersion = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/palette
+    
+    androidxSqliteVersion = "2.0.1" // https://developer.android.com/jetpack/androidx/releases/sqlite
+        
+    androidxCollectionVersion = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/collection
+    androidxCollectionKtxVersion = androidxCollectionVersion
+
 
     // Unit tests ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     junitVersion = "5.5.1" // https://junit.org/junit5/
