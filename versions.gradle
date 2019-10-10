@@ -1,10 +1,10 @@
 ext {
     // Configuration ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Project : Stable
-    commonCompileSdkVersion = "28"
+    commonCompileSdkVersion = "29"
     commonBuildToolsVersion = "29.0.0"
     commonMinSdkVersion = "21"
-    commonTargetSdkVersion = "28"
+    commonTargetSdkVersion = "29"
 
     // Project : Preview
     commonCompileSdkVersionPreview = "android-Q"
