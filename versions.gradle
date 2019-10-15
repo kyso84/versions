@@ -35,7 +35,7 @@ ext {
     rxAndroidVersion = "2.1.1" // https://github.com/ReactiveX/RxAndroid/releases
     rxJavaVersion = "2.2.13" // https://github.com/ReactiveX/RxJava/releases
     wasabeefPicassoVersion="2.2.1" // https://github.com/wasabeef/picasso-transformations/releases
-    gpuImageVersion="2.4.0" // https://mindorks.com/android/store/Image-Processing/cyberagent/android-gpuimage
+    gpuImageVersion="1.4.1" // https://mindorks.com/android/store/Image-Processing/cyberagent/android-gpuimage
     googleMapsServicesVersion = "0.10.1" // https://github.com/googlemaps/google-maps-services-java/releases
     googleMapsUtilsVersion = "0.6.1" // https://github.com/googlemaps/android-maps-utils/releases
     exoPlayerVersion = "2.10.5" // https://github.com/google/ExoPlayer/releases
