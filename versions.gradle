@@ -184,7 +184,7 @@ ext {
     
     androidxSqliteVersion = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/sqlite
         
-    androidxCollectionVersion = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/collection
+    androidxCollectionVersion = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/collection
     androidxCollectionKtxVersion = androidxCollectionVersion
 
 
