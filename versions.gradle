@@ -2,7 +2,7 @@ ext {
     // Configuration ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Project : Stable
     commonCompileSdkVersion = "29"
-    commonBuildToolsVersion = "29.0.3"
+    commonBuildToolsVersion = "30.0.0"
     commonMinSdkVersion = "21"
     commonTargetSdkVersion = "29"
 
