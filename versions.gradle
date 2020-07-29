@@ -145,8 +145,8 @@ ext {
     
         
     androidxActivityVersion = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/activity
-    androidxActivityKtxVersion = androidxFragmentVersion
-    androidxActivityTestingVersion = androidxFragmentVersion
+    androidxActivityKtxVersion = androidxActivityVersion
+    androidxActivityTestingVersion = androidxActivityVersion
     
     
     androidxFragmentVersion = "1.2.5" // https://developer.android.com/jetpack/androidx/releases/fragment
